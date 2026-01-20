@@ -1,16 +1,79 @@
-# React + Vite
+# SiteSurvey Pro – ISP Site Survey Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SiteSurvey Pro is a full-stack web application designed to simplify and digitize the **site survey process for Internet Service Providers (ISPs)**.  
+The system helps surveyors and administrators manage **properties, buildings, floors, spaces, and checklists** efficiently within large environments such as **college campuses**.
 
-Currently, two official plugins are available:
+This project focuses on real-world use cases like surveying **classrooms, laboratories, staff rooms, corridors, libraries, hostels, and server rooms** for network planning and deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Application Links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend (Netlify):**  
+  👉 https://voluble-fudge-e77e26.netlify.app/
 
-## Expanding the ESLint configuration
+- **Backend (Railway):**  
+  👉 https://site-survey-tool-production.up.railway.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Project Features
+
+- 🔐 JWT-based Authentication & Role Management  
+- 🏫 Property, Building, Floor & Space Management  
+- 📋 Dynamic Checklist Templates & Questions  
+- 🧑‍💼 Role-based Access (Admin / Surveyor)  
+- 📊 Centralized Survey Data Storage  
+- ☁️ Cloud-deployed Full-Stack Application  
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Axios
+- Netlify (Deployment)
+
+### Backend
+- Spring Boot
+- Spring Security (JWT)
+- JPA / Hibernate
+- PostgreSQL
+- Railway (Deployment)
+
+---
+
+## 🧪 Use Case Example
+
+The application can be used to:
+- Survey college campuses for Wi-Fi and LAN planning
+- Collect data from classrooms, labs, corridors, and hostels
+- Validate infrastructure readiness before ISP deployment
+- Generate structured survey data for decision-making
+
+---
+
+## 👥 Project Team Members
+
+- **D. Bharathi**
+- **V. Joslin**
+- **S. Bharath Chandra**
+- **A. Sowjanya**
+- **Uma Mageswari**
+- **Manoj Kumawat**
+- **Kunal Dhangar**
+- **Siddhant Shukla**
+
+---
+
+## 📌 Academic Note
+
+This project was developed as part of an academic mini/major project with the objective of applying **full-stack development concepts** to solve a real-world problem in the **telecom and ISP domain**.
+
+---
+
+## 📄 License
+
+This project is intended for academic and learning purposes.
