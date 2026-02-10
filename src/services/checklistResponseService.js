@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authHeader } from "./authHeader";
 
-const API_URL = "https://site-survey-tool-production.up.railway.app/api/checklist-responses";
+const API_URL = "https://site-survey-backend-production.up.railway.app/api/checklist-responses";
 
 export const saveDraftResponse = (checklistId, questionId, answer) => {
   return axios.post(
