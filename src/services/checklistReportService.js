@@ -5,7 +5,7 @@ import { authHeader } from "./authHeader";
 const SUMMARY_API_URL = "https://site-survey-backend-production.up.railway.app/api/checklist-responses";
 
 // 🔹 PDF REPORT API
-const REPORT_API_URL = "https://site-survey-tool-production.up.railway.app/api/reports";
+const REPORT_API_URL = "https://site-survey-backend-production.up.railway.app/api/reports";
 
 export const getChecklistSummary = (checklistId) => {
   return axios.get(
