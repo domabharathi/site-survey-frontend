@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authHeader } from "./authHeader";
 
-const API_URL = "https://site-survey-tool-production.up.railway.app/api/spaces";
+const API_URL = "https://site-survey-backend-production.up.railway.app/api/spaces";
 
 export const createSpace = (floorId, space) => {
   return axios.post(
