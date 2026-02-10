@@ -1,7 +1,7 @@
 import axios from "axios";
 import { authHeader } from "./authHeader";
 
-const API_URL = "https://site-survey-tool-production.up.railway.app/api/buildings";
+const API_URL = "https://site-survey-backend-production.up.railway.app/api/buildings";
 
 export const getBuildingsByProperty = (propertyId) =>
   axios.get(`${API_URL}/property/${propertyId}`, authHeader());
