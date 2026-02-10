@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://site-survey-tool-production.up.railway.app/api/properties";
+const API_URL = "https://site-survey-backend-production.up.railway.app/api/properties";
 
 const authHeader = () => ({
   headers: {
