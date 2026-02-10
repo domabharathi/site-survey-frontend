@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://site-survey-tool-production.up.railway.app",
+  baseURL: "https://site-survey-backend-production.up.railway.app",
 });
 
 // Attach token automatically
